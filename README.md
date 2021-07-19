@@ -49,7 +49,7 @@ after start it you need to scan the qr
 ### Contact me
 
 - [TELEGRAM](https://t.me/Axel1BT)
-- [WHATSAPP](http://wa.me/593962681710)
+- [WHATSAPP](http://wa.me/593998840594)
 - [GROUP CHAT WHATSAPP](https://chat.whatsapp.com/KrJFTPEow0zIVAwwPXyQkL)
 
 
