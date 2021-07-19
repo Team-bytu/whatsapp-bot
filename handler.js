@@ -1,5 +1,5 @@
-/base: *Elios and Ben*
-author: *Axel-bytu*/
+/*Elios and Ben*
+author:*Axel-bytu*/
 
 const { GroupSettingChange, WAMessageProto, MessageType, prepareMessageFromContent, relayWAMessage } = require('@adiwajshing/baileys')
 const { exec } = require('child_process');
@@ -1396,7 +1396,7 @@ module.exports = handle = (client, Client) => {
                     if(!datas.isAdmin) return datas.reply(mess.admin)
                     if(!datas.botIsAdmin) return datas.reply(mess.botAdmin)
                     client.groupSettingChange(from, GroupSettingChange.messageSend, false)
-                    datas.reply('El grupo ha sido abierto por el administrador @${datas.sender.split('@')[0]}`)
+                    datas.reply(`El grupo ha sido abierto por el administrador @${datas.sender.split('@')[0]}`)
 				    break
 			    case '1.3049292658533466e+123':
 				    if(!datas.isGroup) return datas.reply(mess.group)
