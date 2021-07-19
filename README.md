@@ -16,7 +16,7 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/justpiple/whatsapp-bot/)
 
-[![Run on Repl.it](https://repl.it/badge/github/Axel-bytu/whatsapp-bot)](https://repl.it/github/Axel-bytu/whatsapp-bot)
+[![Run on Repl.it](https://repl.it/badge/github/Team-bytu/whatsapp-bot)](https://repl.it/github/Axel-bytu/whatsapp-bot)
 
 
 ### Install ⬇️
@@ -55,3 +55,4 @@ after start it you need to scan the qr
 
 ## 🙏 Special Thanks to
 * <a href="https://github.com/adiwajshing/Baileys"><img alt="GitHub" src="https://img.shields.io/badge/@adiwajshing/Baileys%20-%23121011.svg?style=flat-square&logo=npm&color=white"/></a>
+* <a href="https://github.com/Team-bytu"><img alt="GitHub" src="https://img.shields.io/badge/@Axel-bytu%20-%23121011.svg?style=flat-square&logo=Team-bytu&color=blue"/></a>
