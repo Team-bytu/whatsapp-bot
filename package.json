@@ -27,12 +27,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/justpiple/whatsapp-bot.git"
+    "url": "git+https://github.com/Team-bytu/whatsapp-bot.git"
   },
   "author": "ben and Axel",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/justpiple/whatsapp-bot/issues"
+    "url": "https://github.com/Team-bytu/whatsapp-bot/issues"
   },
-  "homepage": "https://github.com/justpiple/whatsapp-bot#readme"
+  "homepage": "https://github.com/Team-bytu/whatsapp-bot#readme"
 }
