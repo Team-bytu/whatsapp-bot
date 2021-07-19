@@ -48,7 +48,7 @@ after start it you need to scan the qr
 #### Session name and options is optional
 ### Contact me
 
-- [TELEGRAM](https://t.me/Axel)
+- [TELEGRAM](https://t.me/Axel1BT)
 - [WHATSAPP](http://wa.me/593962681710)
 - [GROUP CHAT WHATSAPP](https://chat.whatsapp.com/KrJFTPEow0zIVAwwPXyQkL)
 
