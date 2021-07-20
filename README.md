@@ -55,5 +55,4 @@ after start it you need to scan the qr
 
 ## 🙏 Special Thanks to
 * <a href="https://github.com/adiwajshing/Baileys"><img alt="GitHub" src="https://img.shields.io/badge/@adiwajshing/Baileys%20-%23121011.svg?style=flat-square&logo=npm&color=white"/></a>
-* <a href="https://github.com/Team-bytu"><img alt="GitHub" src="https://img.shields.io/badge/@Axel-bytu%20-%23121011.svg?style=flat-square&logo=Team-bytu&color=blue"/></a>
-*<a href="https://github.com/Team-bytu"><img alt="GitHub" src="https://avatars.githubusercontent.com/u/87240647?s=400&u=c989209cfa934830a69dd2217daa65a561a64cd1&v=4?style=flat-square&logo=Team-bytu&color=blue"/></a>
+* <a href="https://github.com/Team-bytu"><img alt="GitHub" src="https://img.shields.io/badge/@Axel-bytu%20-%23121011.svg?style=flat-square&logo=bytu&color=blue"/></a>
