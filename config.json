@@ -1,11 +1,11 @@
 {	
 	"prefix": "multi", 
-	"defaultSessionName": "bot", 
-	"zeksKey": "apikey",
-	"autoRead": true,
+	"defaultSessionName": "QRnya", 
+	"zeksKey": "team-bytu",
+	"autoRead": false,
 	"maxLimit": 30,
-	"ownerList": ["5217777147173@s.whatsapp.net", "5217777147173@s.whatsapp.net"],
+	"ownerList": ["5217777147173@s.whatsapp.net", "6282279601471@s.whatsapp.net"],
 	"apiUrl": "https://api.zeks.xyz",
-	"pack": "Sticker",
+	"pack": "bytu",
 	"author": "Axel-bytu"
 }
