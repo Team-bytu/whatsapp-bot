@@ -1,7 +1,5 @@
-const moment = require('moment-timezone');
-const menu = (prefix) => {
-	let p = 0
-	return `*Hola ${pushname}*
+ `*Hola ${pushname}*
+
 *❖ Nama Bot* : Rabybot
 *❖ Prefix* : Multi
 *❖ Owner* : Axel-bytu
