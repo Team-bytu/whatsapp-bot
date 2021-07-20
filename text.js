@@ -1,4 +1,4 @@
- `*Hola ${pushname}*
+ *Hola ${pushname}*
 
 *❖ Nama Bot* : Rabybot
 *❖ Prefix* : Multi
