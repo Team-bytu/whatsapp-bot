@@ -9,12 +9,14 @@ const menu = (prefix) => {
 *❖ Lib* : Baileys
 *❖ Time* : ${moment().utcOffset('1000').format('YYYY-MM-DD HH:mm:ss')} WIB
 *❖ Total Fitur : 123*
+
 *</INFO>*
 *• ${prefix}info*
 *• ${prefix}owner*
 *• ${prefix}limit*
 *• ${prefix}listvn*
 *• ${prefix}stickermenu*
+
 *</GROUP ONLY>*
 *• ${prefix}group* _open|close_
 *• ${prefix}antilink* _on|off_
@@ -33,6 +35,7 @@ const menu = (prefix) => {
 *• ${prefix}linkgroup*
 *• ${prefix}revoke*
 *• ${prefix}leave*
+
 *</DOWNLOADER>*
 *• ${prefix}play* _query_
 *• ${prefix}ytmp3* _link_
@@ -40,6 +43,7 @@ const menu = (prefix) => {
 *• ${prefix}igstory* _username_
 *• ${prefix}ig* _link_
 *• ${prefix}joox* _song_
+
 *</STICKER>*
 *• ${prefix}stickerwm* _pack|author_
 *• ${prefix}takestick* _pack|author_
@@ -50,11 +54,13 @@ const menu = (prefix) => {
 *• ${prefix}stickernobg*
 *• ${prefix}stickergif*
 *• ${prefix}sticker*
+
 *</EDUCATION>*
 *• ${prefix}nulis* _text_
 *• ${prefix}brainly* _query_
 *• ${prefix}kbbi* _query_
 *• ${prefix}wiki* _query_
+
 *</SEARCHING>*
 *• ${prefix}playstore* _apk_
 *• ${prefix}happymod* _apk_
@@ -71,10 +77,12 @@ const menu = (prefix) => {
 *• ${prefix}pinterest* _query_
 *• ${prefix}googleimage* _query_
 *• ${prefix}jagokata* _kata_
+
 *</PRIMBON>*
 *• ${prefix}jodoh* _kamu|dia_
 *• ${prefix}artinama* _nama_
 *• ${prefix}artimimpi* _mimpi_
+
 *</RANDOM>*
 *• ${prefix}fml*
 *• ${prefix}randomquran*
@@ -84,6 +92,7 @@ const menu = (prefix) => {
 *• ${prefix}nickepep*
 *• ${prefix}quotes*
 *• ${prefix}estetikpic*
+
 *</TEXTMAKER>*
 *• ${prefix}wolflogo* _text1|text2_
 *• ${prefix}logoaveng* _text1|text2_
@@ -118,11 +127,13 @@ const menu = (prefix) => {
 *• ${prefix}crosslogo* _text_
 *• ${prefix}cslogo* _text_
 *• ${prefix}crismes* _text_
+
 *</IMAGEMAKER>*
 *• ${prefix}missing* _text1|text2|text3|@tag_
 *• ${prefix}calender* _replyImage / @tag_
 *• ${prefix}drawing* _replyImage / @tag_
 *• ${prefix}sketch* _replyImage / @tag_
+
 *</OTHER>*
 *• ${prefix}removebg* _replyImage / @tag_
 *• ${prefix}qrencode* _text_
@@ -130,6 +141,7 @@ const menu = (prefix) => {
 *• ${prefix}jadwalsholat* _daerah_
 *• ${prefix}jadwaltv* _channel_
 *• ${prefix}tebakgambar*
+
 *</OWNER>*
 *• ${prefix}setpp* _replyImage_
 *• ${prefix}eval* _text_
