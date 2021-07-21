@@ -27,7 +27,7 @@ module.exports = handle = (client, Client) => {
                 if(res.data.status == false) data.reply(res.data.message)
                 ytm = res.data.result
                 teks = `*Datos recuperados correctamebte!*\n\n*Título* : ${ytm.title}\n*Tamaño* : ${ytm.size}\n*Calidad* : ${ytm.quality}\n*Ext* : ${ytm.ext}\n\n_Espere a que se envíe el archivo multimedia; puede tardar unos minutos_`
-                if(Number(ytm.size.split(' MB')[0]) >= 50.00) return Client.sendFileFromUrl(data.from, `${ytm.thumb}`, 'thumb.jpg', `*Datos recuperados correctamente!*\n\n*Título* : ${ytm.title}\n*Tamaño* : ${ytm.size}\n*Calidad* : ${ytm.quality}\n*Ext* : mp4\n*Enlace* : ${ytm.link}\n\n_Para la duración de más del límite se presenta en forma de enlace_`, data.message)
+                if(Number(ytm.size.split(' MB')[0]) >= 50.00) return Client.sendFileFromUrl(data.from, `${ytm.thumb}`, 'thumb.jpg', `*Datos recuperados correctamente!*\n\n*Title* : ${ytm.title}\n*Ukuran* : ${ytm.size}\n*Kualitas* : ${ytm.quality}\n*Ext* : mp4\n*Link* : ${ytm.link}\n\n_Para la duración de más del límite se presenta en forma de enlace_`, data.message)
                 Client.sendFileFromUrl(data.from, `${ytm.thumb}`, 'thumb.jpg', teks, data.message)
                 Client.sendFileFromUrl(data.from, `${ytm.link}`, `${ytm.title} - Download.mp4`, `Video enviado @${data.sender.split('@')[0]}`, data.message)
             } catch {
@@ -43,7 +43,7 @@ module.exports = handle = (client, Client) => {
                 if(res.data.status == false) data.reply(res.data.message)
                 ytm = res.data.result
                 teks = `*Datos recuperados correctamente!*\n\n*Título* : ${ytm.title}\n*Tamaño* : ${ytm.size}\n*Calidad* : ${ytm.quality}\n*Ext* : ${ytm.ext}\n\n_Espere a que se envíe el archivo multimedia; puede tardar unos minutos_`
-                if(Number(ytm.size.split(' MB')[0]) >= 50.00) return Client.sendFileFromUrl(data.from, `${ytm.thumb}`, 'thumb.jpg', `*Datos recuperados correctamente!*\n\n*Título* : ${ytm.title}\n*Tamaño* : ${ytm.size}\n*Calidad* : ${ytm.quality}\n*Ext* : mp3\n*Enlace* : ${ytm.link}\n\n_Para la duración de más del límite se presenta en forma de enlace_`, data.message)
+                if(Number(ytm.size.split(' MB')[0]) >= 50.00) return Client.sendFileFromUrl(data.from, `${ytm.thumb}`, 'thumb.jpg', `*Datos recuperados correctamente!*\n\n*Title* : ${ytm.title}\n*Ukuran* : ${ytm.size}\n*Kualitas* : ${ytm.quality}\n*Ext* : mp3\n*Link* : ${ytm.link}\n\n_Para la duración de más del límite se presenta en forma de enlace_`, data.message)
                 Client.sendFileFromUrl(data.from, `${ytm.thumb}`, 'thumb.jpg', teks, data.message)
                 Client.sendFileFromUrl(data.from, `${ytm.link}`, `${ytm.title} - Download.mp3`, ``, data.message)
             } catch {
@@ -59,7 +59,7 @@ module.exports = handle = (client, Client) => {
                 if(res.data.status == false) data.reply(res.data.message)
                 ytm = res.data.result
                 teks = `*¡Datos recuperados correctamente!*\n\n*Título* : ${ytm.title}\n*Tamaño* : ${ytm.size}\n*Calidad* : ${ytm.quality}\n*Ext* : ${ytm.ext}\n*Fuente* : ${ytm.source}\n\n_Espere a que se envíe el archivo multimedia; puede tardar unos minutos_`
-                if(Number(ytm.size.split(' MB')[0]) >= 50.00) return Client.sendFileFromUrl(data.from, `${ytm.thumb}`, 'thumb.jpg', `*Datos recuperados correctamente!*\n\n*Title* : ${ytm.title}\n*Tamaño* : ${ytm.size}\n*Calidad* : ${ytm.quality}\n*Ext* : mp4\n*Fuente* : ${ytm.source}\n*Enlace* : ${ytm.link}\n\n_Para la duración de más del límite se presenta en forma de enlace_`, data.message)
+                if(Number(ytm.size.split(' MB')[0]) >= 50.00) return Client.sendFileFromUrl(data.from, `${ytm.thumb}`, 'thumb.jpg', `*Datos recuperados correctamente!*\n\n*Title* : ${ytm.title}\n*Ukuran* : ${ytm.size}\n*Kualitas* : ${ytm.quality}\n*Ext* : mp4\n*Source* : ${ytm.source}\n*Link* : ${ytm.link}\n\n_Para la duración de más del límite se presenta en forma de enlace_`, data.message)
                 Client.sendFileFromUrl(data.from, `${ytm.thumb}`, 'thumb.jpg', teks, data.message)
                 Client.sendFileFromUrl(data.from, `${ytm.link}`, 'video.mp4', `Video enviado @${data.sender.split('@')[0]}`, data.message)
             } catch (e) {
@@ -100,7 +100,7 @@ module.exports = handle = (client, Client) => {
                 stomr = await axios.get(`${configs.apiUrl}/api/igs?apikey=${configs.zeksKey}&username=${data.body}`)
                 if(stomr.data.status == false) return data.reply(stomr.data.message)
                 for(let i = 0; i < stomr.data.data.length; i++) {
-                    Client.sendFileFromUrl(data.from, stomr.data.data[i].url, `ig.${stomr.data.data[i].type}`, `「 INSTAGRAM 」\n\n*Nombre de usuario*: ${stomr.data.username}\n*Tipo*: ${stomr.data.data[i].type}`, data.message);
+                    Client.sendFileFromUrl(data.from, stomr.data.data[i].url, `ig.${stomr.data.data[i].type}`, `「 INSTAGRAM 」\n\n*Username*: ${stomr.data.username}\n*Type*: ${stomr.data.data[i].type}`, data.message);
                 }
             } catch {
                 data.reply('usuario no encontrado')
@@ -160,7 +160,7 @@ module.exports = handle = (client, Client) => {
             if(isLimit(data.sender)) return data.reply(mess.limit)
             res = await axios.get(`${configs.apiUrl}/api/quote?apikey=${configs.zeksKey}`)
             que = res.data.result
-            teks = `*Author* : ${que.author}\n*Quotes* : ${que.quotes}`
+            teks = `*Autor* : ${que.author}\n*Quotes* : ${que.quotes}`
             data.reply(texto)
         })
         Client.cmd.on('pantun', async (data) => {
