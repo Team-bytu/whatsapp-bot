@@ -1,9 +1,9 @@
 {	
 	"prefix": "multi", 
-	"defaultSessionName": "QRnya", 
+	"defaultSessionName": "https://team-bt.herokuapp.com/", 
 	"zeksKey": "BgWknoi0lb8EK41R0LvTvppmUpa",
 	"autoRead": false,
-	"maxLimit": 30,
+	"maxLimit": 99,
 	"ownerList": ["5939xxxxxxxx@s.whatsapp.net", "593998840594@s.whatsapp.net"],
 	"apiUrl": "https://api.zeks.xyz",
 	"pack": "Rabybot",
