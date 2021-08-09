@@ -361,12 +361,12 @@ module.exports = handle = (client, Client) => {
                 if(dataGc[data.from].welcome) return data.reply('¡Ya encendido!')
                 dataGc[data.from].welcome = true
                 fs.writeFileSync('./lib/json/dataGc.json', JSON.stringify(dataGc))
-                data.reply('¡Éxito!')
+                data.reply('¡Lísto!')
             } else if(data.args[0].toLowerCase() == 'off') {
                 if(!dataGc[data.from].welcome) return data.reply('¡Ya apagado!')
                 dataGc[data.from].welcome = false
                 fs.writeFileSync('./lib/json/dataGc.json', JSON.stringify(dataGc))
-                data.reply('¡Éxito!')
+                data.reply('¡Lísto!')
             } else {
 				let po = client.prepareMessageFromContent(data.from, {
 					"listMessage":{
@@ -431,12 +431,12 @@ module.exports = handle = (client, Client) => {
                 if(dataGc[data.from].leave) return data.reply('¡Ya encendido!')
                 dataGc[data.from].leave = true
                 fs.writeFileSync('./lib/json/dataGc.json', JSON.stringify(dataGc))
-                data.reply('¡Éxito!')
+                data.reply('¡Lísto!')
             } else if(data.args[0].toLowerCase() == 'off') {
                 if(!dataGc[data.from].leave) return data.reply('¡Ya apagado!')
                 dataGc[data.from].leave = false
                 fs.writeFileSync('./lib/json/dataGc.json', JSON.stringify(dataGc))
-                data.reply('¡Éxito!')
+                data.reply('¡Lísto!')
             } else {
 				let po = client.prepareMessageFromContent(data.from, {
 					"listMessage":{
@@ -468,12 +468,12 @@ module.exports = handle = (client, Client) => {
                 if(dataGc[data.from].antilink) return data.reply('¡Ya encendido!')
                 dataGc[data.from].antilink = true
                 fs.writeFileSync('./lib/json/dataGc.json', JSON.stringify(dataGc))
-                data.reply('¡Éxito!')
+                data.reply('¡Lísto!')
             } else if(data.args[0].toLowerCase() == 'off') {
                 if(!dataGc[data.from].antilink) return data.reply('¡Ya apagado!')
                 dataGc[data.from].antilink = false
                 fs.writeFileSync('./lib/json/dataGc.json', JSON.stringify(dataGc))
-                data.reply('¡Éxito!')
+                data.reply('¡Lísto!')
             } else {
 				let po = client.prepareMessageFromContent(data.from, {
 					"listMessage":{
@@ -765,6 +765,13 @@ module.exports = handle = (client, Client) => {
                     data.reply(menu(data.prefix))
                     break
                     /*STICKER*/
+                case 'attp':
+		   if (!isUser) return reply(mess.only.daftarB)
+	           if (args.length < 1) return reply(`¿Dónde está el texto?\n*Ejemplo:* ${prefix}attp Axel no te ama`)
+	           reply(mess.only.attp)
+		   attp2 = await getBuffer(`https://api.xteam.xyz/attp?file&text=${body.slice(6)}`)
+		   client.sendMessage(from, attp2, MessageType.sticker, {quoted: mek})
+		   break
                 case 'sgif':
                 case 'sticker':
                 case 's':
