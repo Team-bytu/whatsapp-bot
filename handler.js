@@ -766,7 +766,7 @@ module.exports = handle = (client, Client) => {
                     break
                     /*STICKER*/
                 case 'attp':
-		   if (!isUser) return reply(mess.only.daftarB)
+		   if(isLimit(data.sender)) return data.reply(mess.limit)
 	           if (args.length < 1) return reply(`¿Dónde está el texto?\n*Ejemplo:* ${prefix}attp Axel no te ama`)
 	           reply(mess.only.attp)
 		   attp2 = await getBuffer(`https://api.xteam.xyz/attp?file&text=${body.slice(6)}`)
